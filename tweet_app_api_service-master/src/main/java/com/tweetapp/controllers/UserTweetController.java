@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 06/07/2022 - 08:37 PM
  */
 @Log4j2
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 public class UserTweetController {
 
