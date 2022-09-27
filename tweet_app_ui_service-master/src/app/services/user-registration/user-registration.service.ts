@@ -3,10 +3,10 @@ import { Injectable } from '@angular/core';
 import { UserModel } from 'src/app/model/UserModel.model';
 import {map} from 'rxjs/operators';
 
-export const API_URL="http://localhost:8682/api/v1.0/tweets/register";
-export const Users_URL ="http://localhost:8682/api/v1.0/tweets/users/all";
-export const Search_URL = "http://localhost:8682/api/v1.0/tweets/user/search/";
-export const Forgot_URL="http://localhost:8682/api/v1.0/tweets";
+export const API_URL="http://52.54.112.92:8682/api/v1.0/tweets/register";
+export const Users_URL ="http://52.54.112.92:8682/api/v1.0/tweets/users/all";
+export const Search_URL = "http://52.54.112.92:8682/api/v1.0/tweets/user/search/";
+export const Forgot_URL="http://52.54.112.92:8682/api/v1.0/tweets";
 @Injectable({
   providedIn: 'root'
 })
